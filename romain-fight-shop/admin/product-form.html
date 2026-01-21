@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product toevoegen - Admin</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="admin-body">
+
+<header class="admin-header">
+    <h1>Nieuw product toevoegen</h1>
+    <nav>
+        <a href="dashboard.html">Terug naar dashboard</a>
+        <a href="login.html">Uitloggen</a>
+    </nav>
+</header>
+
+<main class="admin-container">
+
+    <form class="product-form">
+
+        <label for="productname">Productnaam</label>
+        <input type="text" id="productname" name="productname" required>
+
+        <label for="price">Prijs (€)</label>
+        <input type="number" id="price" name="price" step="0.01" required>
+
+        <label for="stock">Voorraadstatus</label>
+        <select id="stock" name="stock">
+            <option>Op voorraad</option>
+            <option>Beperkte voorraad</option>
+            <option>Niet op voorraad</option>
+        </select>
+
+        <label>Kleur</label>
+        <input type="checkbox" name="color" value="zwart"> Zwart
+        <input type="checkbox" name="color" value="rood"> Rood
+        <input type="checkbox" name="color" value="wit"> Wit
+
+        <label for="category">Categorie</label>
+        <select id="category" name="category">
+            <option>Bokshandschoenen</option>
+            <option>MMA Gear</option>
+            <option>Accessoires</option>
+        </select>
+
+        <label for="description">Productbeschrijving</label>
+        <textarea id="description" name="description" rows="5"></textarea>
+
+        <button type="submit">Product opslaan</button>
+
+    </form>
+
+</main>
+
+</body>
+</html>
