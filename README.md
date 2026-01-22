@@ -63,8 +63,9 @@ Concreet eerlijk gebruik:
 - Suggesties voor betere structuur van HTML-pagina’s
 - Feedback op witruimte en visuele layout
 - Hulp bij het structureren van deze README
-- Logo van mijn webshop Romain Fight Shop aan te maken
- AI werd gebruikt als ondersteunend hulpmiddel, niet om het volledige project automatisch te genereren.
+- Logo van mijn webshop Romain Fight Shop aan te maken.
+
+AI werd gebruikt als ondersteunend hulpmiddel, niet om het volledige project automatisch te genereren.
 
 Wat ik zelf deed:
 - Alle HTML en CSS zelf geschreven en aangepast
