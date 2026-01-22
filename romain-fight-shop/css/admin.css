@@ -1,0 +1,22 @@
+body.admin-body {
+  font-family: 'Montserrat', sans-serif;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: #222;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
