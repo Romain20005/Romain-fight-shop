@@ -24,12 +24,12 @@ Maandag(19-01-2026)
  
 Dinsdag(20-01-2026):
 - CSS geschreven voor algemene layout
-- Flexbox gebruikt voor productgrid en productdetailpagina’s
 - Google Fonts toegevoegd voor typografie
 
 Woensdag(21-01-2026)
 - Admin-gedeelte gemaakt (login, dashboard, product-form)
 - Extra styling voor admin.css
+- Flexbox gebruikt voor productgrid en productdetailpagina’s
  
 Donderdag (22-01-2026):
 - Feedback van docent verwerkt:
